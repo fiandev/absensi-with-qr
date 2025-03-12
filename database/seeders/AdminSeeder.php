@@ -16,15 +16,15 @@ class AdminSeeder extends Seeder
     {
         User::factory()->admin(superadmin: true)->create([
             'name' => 'Super Admin',
-            'email' => 'superadmin@example.com',
-            'password' => Hash::make('superadmin'),
-            'raw_password' => 'superadmin',
+            'email' => 'superadmin@asfatour.com',
+            'password' => Hash::make('superadmin55'),
+            'raw_password' => 'superadmin55',
         ]);
         User::factory()->admin()->create([
             'name' => 'Admin',
-            'email' => 'admin@example.com',
-            'password' => Hash::make('admin'),
-            'raw_password' => 'admin',
+            'email' => 'admin@asfatour.com',
+            'password' => Hash::make('admin55'),
+            'raw_password' => 'admin55',
         ]);
     }
 }
